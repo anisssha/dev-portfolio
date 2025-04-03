@@ -14,21 +14,12 @@ importers:
       '@supabase/supabase-js':
         specifier: ^2.49.4
         version: 2.49.4
-      autoprefixer:
-        specifier: ^10.4.21
-        version: 10.4.21(postcss@8.5.3)
-      postcss:
-        specifier: ^8.5.3
-        version: 8.5.3
       react:
         specifier: ^19.0.0
         version: 19.1.0
       react-dom:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.0)
-      tailwindcss:
-        specifier: ^4.1.0
-        version: 4.1.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.21.0
@@ -42,6 +33,9 @@ importers:
       '@vitejs/plugin-react':
         specifier: ^4.3.4
         version: 4.3.4(vite@6.2.4(@types/node@22.13.17))
+      autoprefixer:
+        specifier: ^10.4.21
+        version: 10.4.21(postcss@8.5.3)
       eslint:
         specifier: ^9.21.0
         version: 9.23.0
@@ -54,6 +48,12 @@ importers:
       globals:
         specifier: ^15.15.0
         version: 15.15.0
+      postcss:
+        specifier: ^8.5.3
+        version: 8.5.3
+      tailwindcss:
+        specifier: ^4.1.0
+        version: 4.1.0
       typescript:
         specifier: ~5.7.2
         version: 5.7.3
